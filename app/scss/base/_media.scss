@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .footer__inner {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+
+
+//На устройствах с возможностью навести курсор
+@media (any-hover: hover) {
+    .shop-btn:hover {
+        background-color: rgb(5, 5, 100);
+    }
+    .logo:hover {
+        color: rgb(60, 60, 246);
+        transform: scale(1.05);
+    }
+}
+
+//На тачскрин устройствах
+@media (any-hover: none) {
+    
+}
